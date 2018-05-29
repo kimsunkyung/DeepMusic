@@ -48,12 +48,12 @@
         "source": "C:\\Users\\Note\\.android\\build-cache\\87518573b1e929e10c4de6613b558c9973b0c872\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -76,16 +76,16 @@
         "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -100,12 +100,12 @@
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_intro.xml",
-        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\src\\main\\res\\layout\\activity_intro.xml"
-    },
-    {
         "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_intro.xml",
+        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
         "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
@@ -116,12 +116,12 @@
         "source": "C:\\Users\\Note\\.android\\build-cache\\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\Note\\.android\\build-cache\\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
-        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
