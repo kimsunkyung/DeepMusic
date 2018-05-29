@@ -1,179 +1,160 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:5:5-65
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:5:22-62
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.INTERNET
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:8:5-67
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:11:5-51:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:11:5-55:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Note\.android\build-cache\c30a91164beb8fbc1f047d5a210185eb03f50285\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Note\.android\build-cache\c1d083e2f3ffb027e16e0e04dc935c3406ccc1aa\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Note\.android\build-cache\87518573b1e929e10c4de6613b558c9973b0c872\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Note\.android\build-cache\d316eafdb8efab5fa11b0fa07e4547427c9f718f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Note\.android\build-cache\5e43bdd588e13156d040c78aecfd259a096f0b39\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\ef41ec32a16ec4928f296d2def49b4bc0977d799\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\0b4808ff1f0194a85f319b12dbea9a982ccc09f8\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Note\.android\build-cache\a55c1bf4c111299f013a0b470989747b6ef78996\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Note\.android\build-cache\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Note\.android\build-cache\336b53c4c4e0a67921f6f4d6591dfc7bf68a3937\output\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:14:9-41
 	android:supportsRtl
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:15:9-35
 	android:allowBackup
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:16:9-40
 provider#android.support.v4.content.FileProvider
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:authorities
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:20:13-60
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:19:13-60
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 	android:grantUriPermissions
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:22:13-47
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:21:13-47
 	android:exported
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:19:13-67
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:18:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:23:13-25:57
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:22:13-24:58
 	android:resource
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:25:17-55
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:24:17-55
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:24:17-67
-activity#fr.ludovic.vimont.carouselviewpager.MainActivity
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:28:9-31:20
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:23:17-67
+activity#fr.ludovic.vimont.carouselviewpager.Main.MainActivity
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:27:9-29:68
 	android:theme
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:29:13-41
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:28:13-46
 activity#fr.ludovic.vimont.carouselviewpager.music
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:32:9-33:58
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:31:9-33:59
 	android:theme
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:32:19-40
-activity#fr.ludovic.vimont.carouselviewpager.SplashActivity
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:35:9-45:20
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:32:13-34
+activity#fr.ludovic.vimont.carouselviewpager.ResultActivity
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:35:9-37:68
+	android:theme
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:36:13-43
+activity#fr.ludovic.vimont.carouselviewpager.Camera.SplashActivity
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:39:9-48:20
 	android:screenOrientation
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:37:20-56
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:41:13-49
 	android:theme
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:36:20-63
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:35:19-49
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:40:13-50
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:39:13-42:29
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:40:17-68
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:41:17-76
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:41:27-74
-activity#fr.ludovic.vimont.carouselviewpager.ImageCropActivity
-ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:47:9-48:64
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:46:27-74
+activity#fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity
+ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:50:9-52:59
 	android:theme
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:48:19-62
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml:47:19-52
+		ADDED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml:51:13-53
 uses-sdk
-INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.isseiaoki:simplecropview:1.1.7] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.isseiaoki\simplecropview\1.1.7\AndroidManifest.xml:8:5-10:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\io.reactivex.rxjava2\rxandroid\2.0.1\AndroidManifest.xml:19:5-43
+INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Note\.android\build-cache\c30a91164beb8fbc1f047d5a210185eb03f50285\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Note\.android\build-cache\c1d083e2f3ffb027e16e0e04dc935c3406ccc1aa\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Note\.android\build-cache\87518573b1e929e10c4de6613b558c9973b0c872\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Note\.android\build-cache\d316eafdb8efab5fa11b0fa07e4547427c9f718f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Note\.android\build-cache\5e43bdd588e13156d040c78aecfd259a096f0b39\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\ef41ec32a16ec4928f296d2def49b4bc0977d799\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\0b4808ff1f0194a85f319b12dbea9a982ccc09f8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Note\.android\build-cache\a55c1bf4c111299f013a0b470989747b6ef78996\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Note\.android\build-cache\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Note\.android\build-cache\336b53c4c4e0a67921f6f4d6591dfc7bf68a3937\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.isseiaoki:simplecropview:1.1.7] C:\Users\Note\.android\build-cache\6decd39f9ed0280b22fbf508501aa703f0a712d8\output\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Note\.android\build-cache\73deb2d2ec6f44f89e9037fe45003eaaf1582d3e\output\AndroidManifest.xml:19:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
-		INJECTED from F:\StudioProject\localProject\CarouselViewPager-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Note\Documents\DeepMusic\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Note\.android\build-cache\c1d083e2f3ffb027e16e0e04dc935c3406ccc1aa\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Note\.android\build-cache\87518573b1e929e10c4de6613b558c9973b0c872\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Note\.android\build-cache\d316eafdb8efab5fa11b0fa07e4547427c9f718f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Note\.android\build-cache\5e43bdd588e13156d040c78aecfd259a096f0b39\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\ef41ec32a16ec4928f296d2def49b4bc0977d799\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Note\.android\build-cache\0b4808ff1f0194a85f319b12dbea9a982ccc09f8\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Note\.android\build-cache\a55c1bf4c111299f013a0b470989747b6ef78996\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Note\.android\build-cache\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\output\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] F:\StudioProject\localProject\CarouselViewPager-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Note\.android\build-cache\433a69e46eb0b312b823ec247ed1038b1e22ae92\output\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Note\.android\build-cache\336b53c4c4e0a67921f6f4d6591dfc7bf68a3937\output\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Note\.android\build-cache\336b53c4c4e0a67921f6f4d6591dfc7bf68a3937\output\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Note\.android\build-cache\336b53c4c4e0a67921f6f4d6591dfc7bf68a3937\output\AndroidManifest.xml:26:13-58

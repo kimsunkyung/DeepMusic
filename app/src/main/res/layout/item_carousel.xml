@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fr.ludovic.vimont.carouselviewpager.ScaledFrameLayout
+<fr.ludovic.vimont.carouselviewpager.Main.ScaledFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rootItem"
     android:layout_width="match_parent"
@@ -77,4 +77,4 @@
 
     </RelativeLayout>
 
-</fr.ludovic.vimont.carouselviewpager.ScaledFrameLayout>
+</fr.ludovic.vimont.carouselviewpager.Main.ScaledFrameLayout>

@@ -2,5 +2,9 @@
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\6f34402e5b450ba5a03bdf9fe256eb172a4f3f2b\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

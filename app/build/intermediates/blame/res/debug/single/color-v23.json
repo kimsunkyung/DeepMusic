@@ -4,16 +4,52 @@
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\749dfa5999592382831e04c409e3a08fd7dee2ab\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
@@ -22,6 +58,10 @@
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Note\\Documents\\DeepMusic\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Note\\.android\\build-cache\\433a69e46eb0b312b823ec247ed1038b1e22ae92\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "F:\\StudioProject\\localProject\\CarouselViewPager-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",

@@ -14,10 +14,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -35,14 +31,16 @@
         </provider>
 
         <activity
-            android:name="fr.ludovic.vimont.carouselviewpager.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:name="fr.ludovic.vimont.carouselviewpager.Main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="fr.ludovic.vimont.carouselviewpager.music"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="fr.ludovic.vimont.carouselviewpager.SplashActivity"
+            android:name="fr.ludovic.vimont.carouselviewpager.ResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="fr.ludovic.vimont.carouselviewpager.Camera.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -52,8 +50,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="fr.ludovic.vimont.carouselviewpager.ImageCropActivity"
+            android:name="fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

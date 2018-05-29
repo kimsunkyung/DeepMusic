@@ -2,17 +2,10 @@ package fr.ludovic.vimont.carouselviewpager;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Matrix;
-import android.graphics.Paint;
-import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
@@ -20,21 +13,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
 
+import fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity;
 import fr.ludovic.vimont.carouselviewpager.network.result.ImageResultList;
 import fr.ludovic.vimont.carouselviewpager.network.task.ImageRequestTask;
 
-import static fr.ludovic.vimont.carouselviewpager.ImageCropActivity.PICK_ALBUM;
-import static fr.ludovic.vimont.carouselviewpager.ImageCropActivity.PICK_CAMERA;
+import static fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity.PICK_ALBUM;
+import static fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity.PICK_CAMERA;
 
 public class music extends AppCompatActivity implements View.OnClickListener {
 
@@ -60,7 +51,7 @@ public class music extends AppCompatActivity implements View.OnClickListener {
             public void onClick(View v) {
 
                 if(!isSelectImage){
-                    Toast.makeText(music.this, "이미지부터 선택하세용", Toast.LENGTH_LONG).show();
+                    Toast.makeText( music.this, "이미지부터 선택하세용", Toast.LENGTH_LONG).show();
                     return;
                 }
 
@@ -82,7 +73,7 @@ public class music extends AppCompatActivity implements View.OnClickListener {
                 });
 
 
-                requestTask.execute("http://52.79.148.129:8080/", "", picData);
+                requestTask.execute("http://52.78.118.92:5000", "/upload", picData);
             }
         });
 
