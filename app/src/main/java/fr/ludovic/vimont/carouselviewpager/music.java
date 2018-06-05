@@ -19,9 +19,9 @@ import android.widget.Toast;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 
 import fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity;
-import fr.ludovic.vimont.carouselviewpager.network.result.ImageResultList;
 import fr.ludovic.vimont.carouselviewpager.network.task.ImageRequestTask;
 
 import static fr.ludovic.vimont.carouselviewpager.Camera.ImageCropActivity.PICK_ALBUM;
@@ -51,14 +51,66 @@ public class music extends AppCompatActivity implements View.OnClickListener {
             public void onClick(View v) {
 
                 if(!isSelectImage){
-                    Toast.makeText( music.this, "이미지부터 선택하세용", Toast.LENGTH_LONG).show();
+                    Toast.makeText( music.this, "이미지부터 선택하세요", Toast.LENGTH_LONG).show();
                     return;
                 }
 
                 ImageRequestTask requestTask = new ImageRequestTask(new ImageRequestTask.ImageRequestTaskResultHandler() {
                     @Override
-                    public void onSuccessExampleTask(ImageResultList result) {
-                        Toast.makeText(music.this, "서버 통신", Toast.LENGTH_SHORT).show();
+                    public void onSuccessExampleTask(String result) {
+                        //Toast.makeText(music.this, "", Toast.LENGTH_SHORT).show();
+
+                        if(result.equals("angry\r\n")){
+
+                            int[] img = {R.drawable.an1, R.drawable.an2, R.drawable.an3, R.drawable.an4};
+
+                            Random random = new Random();
+                            int num = random.nextInt(img.length);
+
+                            Intent intent=new Intent(music.this,ResultActivity.class);
+                            intent.putExtra("randomImg",img[num]);
+                            startActivity(intent);
+
+                        }
+
+                        else if(result.equals("surprise\r\n")){
+
+                            int[] img = {R.drawable.sur1, R.drawable.sur2, R.drawable.sur3};
+
+                            Random random = new Random();
+                            int num = random.nextInt(img.length);
+
+                            Intent intent=new Intent(music.this,ResultActivity.class);
+                            intent.putExtra("randomImg",img[num]);
+                            startActivity(intent);
+
+                        }
+
+                        else if(result.equals("sad\r\n")){
+
+                            int[] img = {R.drawable.sa2, R.drawable.sa3, R.drawable.sa4,R.drawable.sa5};
+
+                            Random random = new Random();
+                            int num = random.nextInt(img.length);
+
+                            Intent intent=new Intent(music.this,ResultActivity.class);
+                            intent.putExtra("randomImg",img[num]);
+                            startActivity(intent);
+
+                        }
+
+                        else if(result.equals("happy\r\n")){
+
+                            int[] img = {R.drawable.ha1, R.drawable.ha2, R.drawable.ha3, R.drawable.ha4,R.drawable.ha5};
+
+                            Random random = new Random();
+                            int num = random.nextInt(img.length);
+
+                            Intent intent=new Intent(music.this,ResultActivity.class);
+                            intent.putExtra("randomImg",img[num]);
+                            startActivity(intent);
+
+                        }
                     }
 
                     @Override
@@ -73,7 +125,7 @@ public class music extends AppCompatActivity implements View.OnClickListener {
                 });
 
 
-                requestTask.execute("http://52.78.118.92:5000", "/upload", picData);
+                requestTask.execute("http://52.79.148.129/", "upload", picData);
             }
         });
 

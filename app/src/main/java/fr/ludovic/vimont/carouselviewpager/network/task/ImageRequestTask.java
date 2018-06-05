@@ -3,26 +3,22 @@ package fr.ludovic.vimont.carouselviewpager.network.task;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import java.util.HashMap;
 import java.util.Map;
 
 import fr.ludovic.vimont.carouselviewpager.network.HttpRequest;
-import fr.ludovic.vimont.carouselviewpager.network.result.ImageResultList;
 
 /**
  * Created by SeungJun on 2017-07-07.
  */
 
-public class ImageRequestTask extends AsyncTask<String, Integer, ImageResultList> {
+public class ImageRequestTask extends AsyncTask<String, Integer, String> {
 
     private ImageRequestTaskResultHandler handler;
 
 
     public interface ImageRequestTaskResultHandler{
-        public void onSuccessExampleTask(ImageResultList result);
+        public void onSuccessExampleTask(String result);
         public void onFailExampleTask();
         public void onCancelExampleTask();
     }
@@ -40,7 +36,7 @@ public class ImageRequestTask extends AsyncTask<String, Integer, ImageResultList
     }
 
     @Override
-    protected ImageResultList doInBackground(String... strings) {
+    protected String doInBackground(String... strings) {
 
         String url = strings[0];
         String path = strings[1];
@@ -48,23 +44,25 @@ public class ImageRequestTask extends AsyncTask<String, Integer, ImageResultList
         Map<String, Object> params = new HashMap<String, Object>();
 
         if(strings[2] != null){
-            params.put("photo", strings[2]);
+            params.put("img", strings[2]);
         }
 
+        params.put("key", String.valueOf(System.currentTimeMillis()));
 
-        ImageResultList result  = null;
+        String result  = null;
 
 
         HttpRequest request = new HttpRequest();
 
         try {
-            String str = request.callRequestServer(url, path,  "GET", null);
+            String str = request.callRequestServer(url, path,  "POST", params);
 
             Log.d("http", "str > " + str);
 
+           result = str;
 
-            Gson gson = new GsonBuilder().create();
-            result = gson.fromJson(str, ImageResultList.class);
+
+
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -74,11 +72,11 @@ public class ImageRequestTask extends AsyncTask<String, Integer, ImageResultList
     }
 
     @Override
-    protected void onPostExecute(ImageResultList taskResult) {
-        super.onPostExecute(taskResult);
+    protected void onPostExecute(String result) {
+        super.onPostExecute(result);
 
-        if(taskResult != null){
-            handler.onSuccessExampleTask(taskResult);
+        if(result != null){
+            handler.onSuccessExampleTask(result);
         }
 
     }

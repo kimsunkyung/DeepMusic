@@ -14,6 +14,10 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_result);
         resultImage = (ImageView)findViewById(R.id.resultimage);
 
+        resultImage.setImageResource(getIntent().getIntExtra("randomImg",0));
     }
+
+
+
 
 }

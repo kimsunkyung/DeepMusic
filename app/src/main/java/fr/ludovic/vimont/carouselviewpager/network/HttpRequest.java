@@ -55,8 +55,13 @@ public class HttpRequest {
      * @throws Exception 주로 connection이 원활히 이루어지지 않았을 때 발생한다.
      */
     public static String startRequest(String serverUrl, String api_path, String method, Map<String, Object> params) throws Exception {
+        URL url = null;
 
-        URL url = createUrl(serverUrl, api_path, params);
+        if (method.equalsIgnoreCase("get")){
+            url = createUrl(serverUrl, api_path, params);
+        }else {
+            url = createUrl(serverUrl, api_path, null);
+        }
 
         Log.d("Http"," url > " + url.toString());
 
@@ -82,6 +87,8 @@ public class HttpRequest {
                 Gson gson = new Gson();
                 String postJson = gson.toJson(params);
 
+                Log.d("Http"," postJson > " + postJson);
+
                 connection.setDoOutput(true); //post는 파라미터를 url이 아닌 별도로 전송하므로 output 옵션 활성화
                 connection.setRequestProperty("Content-Length", Integer.toString(postJson.getBytes("utf-8").length));
                 OutputStream os = connection.getOutputStream();
@@ -91,6 +98,7 @@ public class HttpRequest {
             }
 
         }catch (Exception e) {
+            e.printStackTrace();
             throw new Exception("API response error : " + 0);
         }
 
