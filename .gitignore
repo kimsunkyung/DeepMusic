@@ -14,5 +14,5 @@ gradlew
 gradlew.bat
 /wrapper
 wrapper
-/build/
-/build
+build/
+build
