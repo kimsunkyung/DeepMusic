@@ -73,18 +73,7 @@ public class music extends AppCompatActivity implements View.OnClickListener {
 
                         }
 
-                        else if(result.equals("surprise\r\n")){
 
-                            int[] img = {R.drawable.sur1, R.drawable.sur2, R.drawable.sur3};
-
-                            Random random = new Random();
-                            int num = random.nextInt(img.length);
-
-                            Intent intent=new Intent(music.this,ResultActivity.class);
-                            intent.putExtra("randomImg",img[num]);
-                            startActivity(intent);
-
-                        }
 
                         else if(result.equals("sad\r\n")){
 
@@ -99,7 +88,7 @@ public class music extends AppCompatActivity implements View.OnClickListener {
 
                         }
 
-                        else if(result.equals("happy\r\n")){
+                        else if(result.equals("happy\r\n")||result.equals("surprise\r\n")){
 
                             int[] img = {R.drawable.ha1, R.drawable.ha2, R.drawable.ha3, R.drawable.ha4,R.drawable.ha5};
 
