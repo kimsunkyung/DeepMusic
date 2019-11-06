@@ -1,5 +1,5 @@
 # DeepMusic_server
-> Emotion recognize and recommend music app / BackEnd( Flask )
+> Emotion recognize and recommend music app / FrontEnd( Android )
 
 
 Use Google Inception V3 Model
